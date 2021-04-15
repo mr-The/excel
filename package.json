@@ -1,0 +1,52 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Javascript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE-ENV=development webpack serve --open",
+    "build": "cross-env NODE-ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-The/exel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Oleg Nazarov <rostovshanin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-The/exel/issues"
+  },
+  "homepage": "https://github.com/mr-The/exel#readme",
+  "private": true,
+  "target": "web",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.1",
+    "eslint": "^7.24.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.3.1",
+    "install": "^0.13.0",
+    "mini-css-extract-plugin": "^1.4.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^4.0.0-beta.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-polyfill": "^6.26.0"
+  }
+}
