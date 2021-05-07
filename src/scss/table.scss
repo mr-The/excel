@@ -56,6 +56,10 @@
     color: #111;
     white-space: nowrap;
 
+    &:focus-visible {
+      outline: none;
+    }
+
     &.selected {
       border: none;
       outline: 2px solid $primary-color;
